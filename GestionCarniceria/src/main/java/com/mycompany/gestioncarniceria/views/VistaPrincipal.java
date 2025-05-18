@@ -44,7 +44,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         
         
         
-        
+       
         
         
         
@@ -322,6 +322,28 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jLabel81 = new javax.swing.JLabel();
         txtCompraTotal = new javax.swing.JTextField();
         btnCompraComprar = new javax.swing.JButton();
+        jPanel35 = new javax.swing.JPanel();
+        jPanel36 = new javax.swing.JPanel();
+        jLabel82 = new javax.swing.JLabel();
+        cmbPrecioCategoria = new javax.swing.JComboBox<>();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        txtPrecioMayorista = new javax.swing.JTextField();
+        txtPrecioCompra = new javax.swing.JTextField();
+        txtPrecioMargenMayorista = new javax.swing.JTextField();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        txtPrecioPublico = new javax.swing.JTextField();
+        txtPrecioMargenPublico = new javax.swing.JTextField();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        btnPrecioModificar = new javax.swing.JButton();
+        jLabel90 = new javax.swing.JLabel();
+        txtPrecioBuscar = new javax.swing.JTextField();
+        btnPrecioBuscar = new javax.swing.JButton();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        tablaPrecios = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -753,7 +775,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, 1110, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -996,7 +1018,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 1110, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1009,7 +1031,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel8.setBackground(new java.awt.Color(102, 0, 102));
-        jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)), "Datos Cliente:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 3, 14), new java.awt.Color(255, 255, 204))); // NOI18N
         jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -1032,7 +1054,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jLabel5.setText("Vendedor:");
         jPanel8.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 141, 83, -1));
 
-        jTextField1.setBackground(new java.awt.Color(255, 204, 255));
+        jTextField1.setBackground(new java.awt.Color(255, 204, 204));
         jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setBorder(null);
@@ -1412,7 +1434,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, 1110, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1743,7 +1765,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jLabel80.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
         jLabel80.setForeground(new java.awt.Color(255, 255, 255));
         jLabel80.setText("Fecha:");
-        jPanel34.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 30, -1, -1));
+        jPanel34.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 30, -1, -1));
 
         txtCompraId.setBackground(new java.awt.Color(255, 255, 204));
         txtCompraId.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1759,7 +1781,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         txtCompraFecha.setBackground(new java.awt.Color(255, 204, 204));
         txtCompraFecha.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         txtCompraFecha.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel34.add(txtCompraFecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 20, 120, 30));
+        jPanel34.add(txtCompraFecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 20, 120, 30));
 
         txtCompraCodigoProducto.setBackground(new java.awt.Color(255, 204, 255));
         txtCompraCodigoProducto.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1831,7 +1853,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         });
         jScrollPane7.setViewportView(tablaCompra);
 
-        jPanel33.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 440, 1040, 220));
+        jPanel33.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 440, 1030, 220));
 
         jLabel81.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
         jLabel81.setForeground(new java.awt.Color(255, 255, 255));
@@ -1848,6 +1870,124 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jPanel33.add(btnCompraComprar, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 810, 110, 40));
 
         jTabbedPane1.addTab("Compras", jPanel33);
+
+        jPanel35.setBackground(new java.awt.Color(51, 0, 51));
+        jPanel35.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel36.setBackground(new java.awt.Color(102, 0, 102));
+        jPanel36.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)), "Configuración de Precios", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 3, 14), new java.awt.Color(255, 255, 204))); // NOI18N
+        jPanel36.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel82.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jLabel82.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel82.setText("Categoría:");
+        jPanel36.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
+
+        cmbPrecioCategoria.setBackground(new java.awt.Color(255, 204, 255));
+        cmbPrecioCategoria.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        cmbPrecioCategoria.setForeground(new java.awt.Color(0, 0, 0));
+        cmbPrecioCategoria.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbPrecioCategoria.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel36.add(cmbPrecioCategoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 40, 160, 30));
+
+        jLabel83.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jLabel83.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel83.setText("Venta Mayorista:");
+        jPanel36.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 140, -1, -1));
+
+        jLabel84.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jLabel84.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel84.setText("Precio de Compra:");
+        jPanel36.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 40, -1, -1));
+
+        jLabel85.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jLabel85.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel85.setText("Venta al Público:");
+        jPanel36.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, -1, -1));
+
+        txtPrecioMayorista.setBackground(new java.awt.Color(255, 204, 255));
+        txtPrecioMayorista.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        txtPrecioMayorista.setForeground(new java.awt.Color(0, 0, 0));
+        txtPrecioMayorista.setBorder(null);
+        jPanel36.add(txtPrecioMayorista, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 130, 120, 30));
+
+        txtPrecioCompra.setBackground(new java.awt.Color(255, 204, 255));
+        txtPrecioCompra.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        txtPrecioCompra.setForeground(new java.awt.Color(0, 0, 0));
+        txtPrecioCompra.setBorder(null);
+        jPanel36.add(txtPrecioCompra, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 30, 120, 30));
+
+        txtPrecioMargenMayorista.setBackground(new java.awt.Color(255, 204, 255));
+        txtPrecioMargenMayorista.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        txtPrecioMargenMayorista.setForeground(new java.awt.Color(0, 0, 0));
+        txtPrecioMargenMayorista.setBorder(null);
+        jPanel36.add(txtPrecioMargenMayorista, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 130, 70, 30));
+
+        jLabel86.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jLabel86.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel86.setText("Margen Mayorista:");
+        jPanel36.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 140, -1, -1));
+
+        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jLabel87.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel87.setText("Margen Público:");
+        jPanel36.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 90, -1, -1));
+
+        txtPrecioPublico.setBackground(new java.awt.Color(255, 204, 255));
+        txtPrecioPublico.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        txtPrecioPublico.setForeground(new java.awt.Color(0, 0, 0));
+        txtPrecioPublico.setBorder(null);
+        jPanel36.add(txtPrecioPublico, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 80, 120, 30));
+
+        txtPrecioMargenPublico.setBackground(new java.awt.Color(255, 204, 255));
+        txtPrecioMargenPublico.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        txtPrecioMargenPublico.setForeground(new java.awt.Color(0, 0, 0));
+        txtPrecioMargenPublico.setBorder(null);
+        jPanel36.add(txtPrecioMargenPublico, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 80, 70, 30));
+
+        jLabel88.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel88.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel88.setText("%");
+        jPanel36.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 130, -1, -1));
+
+        jLabel89.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel89.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel89.setText("%");
+        jPanel36.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 80, -1, -1));
+
+        btnPrecioModificar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnPrecioModificar.setText("Modificar");
+        jPanel36.add(btnPrecioModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 40, -1, -1));
+
+        jPanel35.add(jPanel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 1060, 240));
+
+        jLabel90.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jLabel90.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel90.setText("Buscar:");
+        jPanel35.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, -1, -1));
+
+        txtPrecioBuscar.setBackground(new java.awt.Color(255, 204, 255));
+        txtPrecioBuscar.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        txtPrecioBuscar.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel35.add(txtPrecioBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 310, 200, 30));
+
+        btnPrecioBuscar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnPrecioBuscar.setText("Buscar");
+        jPanel35.add(btnPrecioBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 310, -1, -1));
+
+        tablaPrecios.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Código", "Producto", "P. Compra", "P. Público", "P. Mayorista", "Stock", "Proveedor", "IVA"
+            }
+        ));
+        jScrollPane8.setViewportView(tablaPrecios);
+
+        jPanel35.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 1060, 490));
+
+        jTabbedPane1.addTab("Precios", jPanel35);
 
         getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 100, 1110, 900));
 
@@ -1956,6 +2096,8 @@ public class VistaPrincipal extends javax.swing.JFrame {
     public javax.swing.JButton btnEmpleadoModificar;
     public javax.swing.JButton btnEmpleadoRegistrar;
     private javax.swing.JButton btnPerfilModificar;
+    public javax.swing.JButton btnPrecioBuscar;
+    public javax.swing.JButton btnPrecioModificar;
     public javax.swing.JButton btnProdcutoRegistrar;
     public javax.swing.JButton btnProductoCancelar;
     public javax.swing.JButton btnProductoEliminar;
@@ -1975,6 +2117,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
     public javax.swing.JComboBox<String> cmbCompraIva;
     public javax.swing.JComboBox<String> cmbCompraProveedor;
     public javax.swing.JComboBox<String> cmbEmpleadoRol;
+    public javax.swing.JComboBox<String> cmbPrecioCategoria;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     public javax.swing.JButton jButton12;
@@ -2067,7 +2210,16 @@ public class VistaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -2096,6 +2248,8 @@ public class VistaPrincipal extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel32;
     private javax.swing.JPanel jPanel33;
     private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -2112,6 +2266,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     public javax.swing.JTabbedPane jTabbedPane1;
@@ -2137,6 +2292,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
     public javax.swing.JTable tablaCliente;
     public javax.swing.JTable tablaCompra;
     public javax.swing.JTable tablaEmpleado;
+    public javax.swing.JTable tablaPrecios;
     public javax.swing.JTable tablaProdcuto;
     public javax.swing.JTable tablaProveedor;
     public javax.swing.JTextField txtCategoriaId;
@@ -2174,6 +2330,12 @@ public class VistaPrincipal extends javax.swing.JFrame {
     public javax.swing.JTextField txtPerfilId;
     public javax.swing.JTextField txtPerfilNuevaContraeña;
     public javax.swing.JTextField txtPerfilTelefono;
+    public javax.swing.JTextField txtPrecioBuscar;
+    public javax.swing.JTextField txtPrecioCompra;
+    public javax.swing.JTextField txtPrecioMargenMayorista;
+    public javax.swing.JTextField txtPrecioMargenPublico;
+    public javax.swing.JTextField txtPrecioMayorista;
+    public javax.swing.JTextField txtPrecioPublico;
     public javax.swing.JTextField txtProductoBuscar;
     public javax.swing.JTextField txtProductoCategoria;
     public javax.swing.JTextField txtProductoCodigo;
